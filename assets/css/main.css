@@ -1,0 +1,119 @@
+nav div a img {
+  width: 7rem;
+}
+
+nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* Bottom left text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container .col-6 .bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: black;
+}
+
+.hero-box .row .hero-img-box {
+  background-image: url("/assets/images/loign-banner-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.main .main-container .main-row .main-img-section {
+  background-image: url("/assets/images/herobox-2.jpg");
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 360px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.main .main-container .main-row .main-content {
+  background-color: #1b1b64;
+}
+
+.main .main-container .main-row .main-content .content {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.main .main-container .main-row .main-content .content h3,
+.main .main-container .main-row .main-content .content p {
+  color: white;
+}
+
+.main .main-container .main-row .main-content .content button {
+  color: black;
+}
+
+.services .services-container .services-items .home-pick {
+  border: 2px solid red;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ffc0cb), color-stop(50%, #00ffff));
+  background: linear-gradient(90deg, #ffc0cb 50%, #00ffff 50%);
+}
+
+.services .services-container .services-items .home-pick i {
+  color: black;
+  font-size: 8rem;
+}
+
+.services .services-container .services-items .home-pick h3 {
+  color: black;
+}
+
+.services .services-container .services-items .home-pick p {
+  color: black;
+}
+
+.services .services-container .services-items .hajj {
+  border: 2px solid red;
+}
+
+.services .services-container .services-items .hajj i {
+  color: black;
+  font-size: 8rem;
+}
+
+.services .services-container .services-items .hajj h3 {
+  color: black;
+}
+
+.services .services-container .services-items .hajj p {
+  color: black;
+}
+
+.services .services-container .services-items .travel {
+  border: 2px solid red;
+}
+
+.services .services-container .services-items .travel i {
+  color: black;
+  font-size: 8rem;
+}
+
+.services .services-container .services-items .travel h3 {
+  color: black;
+}
+
+.services .services-container .services-items .travel p {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

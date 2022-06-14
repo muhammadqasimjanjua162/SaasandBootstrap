@@ -1,0 +1,136 @@
+$logo-width: 7rem;
+$small-font: 400;
+$medium-font: 600;
+$larger-font: 900;
+$nav-item-color: black;
+$primary-color: rgb(27, 27, 100);
+$main-content-color: white;
+
+nav {
+  div a {
+    img {
+      width: $logo-width;
+    }
+  }
+}
+nav {
+  #navbarSupportedContent {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-weight: $medium-font;
+          text-transform: uppercase;
+          color: $nav-item-color;
+        }
+      }
+    }
+  }
+}
+
+/* Bottom left text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  .col-6 {
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+      color: $nav-item-color;
+    }
+  }
+}
+.hero-box {
+  .row {
+    .hero-img-box {
+      background-image: url("/assets/images/loign-banner-01.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+    }
+    .hero-form {
+    }
+  }
+}
+// main content
+
+.main {
+  .main-container {
+    .main-row {
+      .main-img-section {
+        background-image: url("/assets/images/herobox-2.jpg");
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 360px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      }
+      .main-content {
+        background-color: $primary-color;
+        .content {
+          padding-top: 3rem;
+          padding-left: 3rem;
+          padding-bottom: 3rem;
+          h3,
+          p {
+            color: $main-content-color;
+          }
+          button {
+            color: $nav-item-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.services {
+  .services-container {
+    .services-items {
+      .home-pick {
+        border: 2px solid red;
+        height: 100%;
+        background: linear-gradient(90deg, #ffc0cb 50%, #00ffff 50%);
+
+        i {
+          color: black;
+          font-size: 8rem;
+        }
+        h3 {
+          color: black;
+        }
+        p {
+          color: black;
+        }
+      }
+      .hajj {
+        border: 2px solid red;
+        i {
+          color: black;
+          font-size: 8rem;
+        }
+        h3 {
+          color: black;
+        }
+        p {
+          color: black;
+        }
+      }
+      .travel {
+        border: 2px solid red;
+        i {
+          color: black;
+          font-size: 8rem;
+        }
+        h3 {
+          color: black;
+        }
+        p {
+          color: black;
+        }
+      }
+    }
+  }
+}
